@@ -5,7 +5,7 @@ function App() {
   const [msg, setMsg] = useState("");
 
   useEffect(() => {
-    fetch("http://3.86.4.18l")
+    fetch("http://54.90.225.26")
       .then(res => res.text())
       .then(data => setMsg(data));
   }, []);
